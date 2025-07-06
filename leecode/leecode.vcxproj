@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Algorithm\707.cpp" />
+    <ClCompile Include="203.cpp" />
+    <ClCompile Include="59.cpp" />
+    <ClCompile Include="707.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Algorithm\record.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
