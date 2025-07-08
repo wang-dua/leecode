@@ -61,3 +61,14 @@
      | std::multimap      | 红黑树   | key有序  | key可重复        | key不可修改  | O(log n) | O(log n) |
      | std::unordered_map | 哈希表   | key无序  | key不可重复      | key不可修改  | O(1)     | O(1)     |
 
+# 27 移除数组元素(并不容易)
+1. 使用双循环, 需要尤其注意的是随着数组元素的移除**, 当前i--, 并且size--, 否**则会索引错误
+1. **使用双指针法.** 时间复杂度O(n), 当fast指针发现val时, 会让slow指针原地等待**, 该方法比较奇怪, 记住**
+
+# 151 翻转字符串中的单词(难)
+
+1. **sstream头文件中可以对string对象进行IO,** 比如string对象作为输入流,自动去除空格, 该方法需要额外的空间, 时间复杂度O(n) , 容易理解
+2. **原地算法**(*******): 需要
+   1. ?	deleteExtraSpaces: 将str的前后空格删除,  并手动添加单词之间的空格, 该方法使用了27中的快慢指针, 宏观上的循环 slow是按单词移动的, 要手动添加单词之间的空格 str[slow++] = ' ';, 且在覆盖元素的时候, fast和slow都是使用while循环覆盖整个单词
+   2. reverseStr(str&, start, end): swap将字符串翻转
+   3. reverseWord: deleteExtraSpaces -> reverseStr整个字符串 -> 再对每个空格隔开的单词reverseStr

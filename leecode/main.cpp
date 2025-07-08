@@ -1,17 +1,16 @@
 
-#include "1.h"
+#include "151.h"
 #include <iostream>
 #include <vector>
+#include <string>
 
 int main()
 {
 	using namespace std;
 	Solution1 s;
-	vector<int> nums{3, 3};
-	int target = 6;
-	auto v = s.twoSum(nums, target);
-	for (auto ele : v)
-		cout << ele << " ";
+	string str{ "   wang jia xuan is a    good   guy!   " };
+	auto words = s.reverseWords(str);
+	cout << words;
 	cout << "\n";
-	return 0;
 }
+	

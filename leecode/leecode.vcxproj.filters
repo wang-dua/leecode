@@ -15,5 +15,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1.h" />
+    <ClInclude Include="151.h" />
+    <ClInclude Include="27.h" />
+    <ClInclude Include="344.h" />
   </ItemGroup>
 </Project>
