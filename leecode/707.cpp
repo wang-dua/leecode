@@ -105,21 +105,3 @@ public:
 		}
 	}
 };
-
-int main()
-{
-	MyLinkedList list;
-	list.addAtHead(1);
-	list.addAtHead(2);
-	list.addAtHead(3);
-	list.prinStatus();
-	cout << "\n";
-
-	list.addAtIndex(3, 4);
-	list.prinStatus();
-	cout << "\n";
-
-	cout << list.get(3) << "\n";
-	list.deleteAtIndex(3);
-	return 0;
-}

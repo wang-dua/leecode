@@ -4,8 +4,16 @@
     <ClCompile Include="59.cpp" />
     <ClCompile Include="203.cpp" />
     <ClCompile Include="707.cpp" />
+    <ClCompile Include="206.cpp" />
+    <ClCompile Include="142.cpp" />
+    <ClCompile Include="242.cpp" />
+    <ClCompile Include="349.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1.h" />
   </ItemGroup>
 </Project>
