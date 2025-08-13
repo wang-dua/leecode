@@ -34,8 +34,10 @@
   <ItemGroup>
     <ClInclude Include="1.h" />
     <ClInclude Include="151.h" />
+    <ClInclude Include="20.h" />
     <ClInclude Include="27.h" />
     <ClInclude Include="344.h" />
+    <ClInclude Include="459.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
