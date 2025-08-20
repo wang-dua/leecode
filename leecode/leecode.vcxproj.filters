@@ -22,5 +22,14 @@
     <ClInclude Include="20.h" />
     <ClInclude Include="150.h" />
     <ClInclude Include="239.h" />
+    <ClInclude Include="347.h" />
+    <ClInclude Include="144.h" />
+    <ClInclude Include="145.h" />
+    <ClInclude Include="94.h" />
+    <ClInclude Include="102.h" />
+    <ClInclude Include="107.h" />
+    <ClInclude Include="199.h" />
+    <ClInclude Include="637.h" />
+    <ClInclude Include="429.h" />
   </ItemGroup>
 </Project>
