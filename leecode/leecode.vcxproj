@@ -56,7 +56,11 @@
     <ClInclude Include="459.h" />
     <ClInclude Include="515.h" />
     <ClInclude Include="637.h" />
+    <ClInclude Include="700.h" />
+    <ClInclude Include="701.h" />
     <ClInclude Include="94.h" />
+    <ClInclude Include="257.h" />
+    <ClInclude Include="98.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

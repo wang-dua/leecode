@@ -39,5 +39,9 @@
     <ClInclude Include="226.h" />
     <ClInclude Include="101.h" />
     <ClInclude Include="110.h" />
+    <ClInclude Include="257.h" />
+    <ClInclude Include="700.h" />
+    <ClInclude Include="98.h" />
+    <ClInclude Include="701.h" />
   </ItemGroup>
 </Project>
