@@ -9,20 +9,17 @@
   };
 class Solution {
 public:
-    TreeNode* insertIntoBST(TreeNode* root, int val) {
-        if (root == nullptr) return  new TreeNode(val);
+    TreeNode* insertIntoBST(TreeNode* root, int val)
+    {
+	    if (root == nullptr)
+	    {
+		    TreeNode* newNode = new TreeNode(val);
+            return newNode;
+	    }
 
-
-        //进入递归: val值不等
-        if (root->val > val)
-        {
-            root->left = insertIntoBST(root->left, val);
-        }
-        if (root->val < val)
-        {
-            root->right = insertIntoBST(root->right, val);
-        }
-
+        if (val < root->val) root->left = insertIntoBST(root->left, val);
+        if (val > root->val) root->right = insertIntoBST(root->right, val);
         return root;
     }
+
 };
