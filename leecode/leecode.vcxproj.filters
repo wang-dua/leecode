@@ -45,5 +45,9 @@
     <ClInclude Include="701.h" />
     <ClInclude Include="450.h" />
     <ClInclude Include="77.h" />
+    <ClInclude Include="146.h" />
+    <ClInclude Include="216.h" />
+    <ClInclude Include="39.h" />
+    <ClInclude Include="40.h" />
   </ItemGroup>
 </Project>
