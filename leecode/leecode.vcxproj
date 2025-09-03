@@ -59,11 +59,15 @@
     <ClInclude Include="429.h" />
     <ClInclude Include="450.h" />
     <ClInclude Include="459.h" />
+    <ClInclude Include="46.h" />
+    <ClInclude Include="47.h" />
     <ClInclude Include="515.h" />
     <ClInclude Include="637.h" />
     <ClInclude Include="700.h" />
     <ClInclude Include="701.h" />
     <ClInclude Include="77.h" />
+    <ClInclude Include="78.h" />
+    <ClInclude Include="90.h" />
     <ClInclude Include="94.h" />
     <ClInclude Include="257.h" />
     <ClInclude Include="98.h" />
