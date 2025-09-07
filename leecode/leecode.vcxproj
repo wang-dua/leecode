@@ -32,6 +32,7 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="01Bag.h" />
     <ClInclude Include="1.h" />
     <ClInclude Include="101.h" />
     <ClInclude Include="102.h" />
@@ -58,6 +59,7 @@
     <ClInclude Include="376.h" />
     <ClInclude Include="39.h" />
     <ClInclude Include="40.h" />
+    <ClInclude Include="416.h" />
     <ClInclude Include="429.h" />
     <ClInclude Include="450.h" />
     <ClInclude Include="455.h" />
@@ -66,6 +68,7 @@
     <ClInclude Include="47.h" />
     <ClInclude Include="509.h" />
     <ClInclude Include="515.h" />
+    <ClInclude Include="62.h" />
     <ClInclude Include="637.h" />
     <ClInclude Include="70.h" />
     <ClInclude Include="700.h" />

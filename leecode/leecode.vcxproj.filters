@@ -60,5 +60,8 @@
     <ClInclude Include="509.h" />
     <ClInclude Include="70.h" />
     <ClInclude Include="746.h" />
+    <ClInclude Include="62.h" />
+    <ClInclude Include="416.h" />
+    <ClInclude Include="01Bag.h" />
   </ItemGroup>
 </Project>
