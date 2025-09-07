@@ -18,72 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="142.cpp" />
-    <ClCompile Include="203.cpp" />
-    <ClCompile Include="206.cpp" />
-    <ClCompile Include="242.cpp" />
-    <ClCompile Include="349.cpp" />
-    <ClCompile Include="59.cpp" />
-    <ClCompile Include="707.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="1.h" />
-    <ClInclude Include="101.h" />
-    <ClInclude Include="102.h" />
-    <ClInclude Include="104.h" />
-    <ClInclude Include="107.h" />
-    <ClInclude Include="110.h" />
-    <ClInclude Include="111.h" />
-    <ClInclude Include="116.h" />
-    <ClInclude Include="117.h" />
-    <ClInclude Include="135.h" />
-    <ClInclude Include="144.h" />
-    <ClInclude Include="145.h" />
-    <ClInclude Include="146.h" />
-    <ClInclude Include="150.h" />
-    <ClInclude Include="151.h" />
-    <ClInclude Include="199.h" />
-    <ClInclude Include="20.h" />
-    <ClInclude Include="216.h" />
-    <ClInclude Include="226.h" />
-    <ClInclude Include="239.h" />
-    <ClInclude Include="27.h" />
-    <ClInclude Include="344.h" />
-    <ClInclude Include="347.h" />
-    <ClInclude Include="376.h" />
-    <ClInclude Include="39.h" />
-    <ClInclude Include="40.h" />
-    <ClInclude Include="429.h" />
-    <ClInclude Include="450.h" />
-    <ClInclude Include="455.h" />
-    <ClInclude Include="459.h" />
-    <ClInclude Include="46.h" />
-    <ClInclude Include="47.h" />
-    <ClInclude Include="509.h" />
-    <ClInclude Include="515.h" />
-    <ClInclude Include="637.h" />
-    <ClInclude Include="70.h" />
-    <ClInclude Include="700.h" />
-    <ClInclude Include="701.h" />
-    <ClInclude Include="746.h" />
-    <ClInclude Include="77.h" />
-    <ClInclude Include="78.h" />
-    <ClInclude Include="860.h" />
-    <ClInclude Include="90.h" />
-    <ClInclude Include="94.h" />
-    <ClInclude Include="257.h" />
-    <ClInclude Include="98.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b8c640e1-a2e1-4118-867a-7d03d4cba090}</ProjectGuid>
-    <RootNamespace>leecode</RootNamespace>
+    <ProjectGuid>{5f1f94f4-4457-43ee-a3fe-768740e6ed6e}</ProjectGuid>
+    <RootNamespace>mi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -187,6 +126,10 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1.cpp" />
+    <ClCompile Include="2.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
