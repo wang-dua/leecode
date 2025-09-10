@@ -24,6 +24,7 @@
     <ClCompile Include="206.cpp" />
     <ClCompile Include="242.cpp" />
     <ClCompile Include="349.cpp" />
+    <ClCompile Include="416.cpp" />
     <ClCompile Include="59.cpp" />
     <ClCompile Include="707.cpp" />
     <ClCompile Include="main.cpp" />
@@ -68,6 +69,7 @@
     <ClInclude Include="47.h" />
     <ClInclude Include="509.h" />
     <ClInclude Include="515.h" />
+    <ClInclude Include="518.h" />
     <ClInclude Include="62.h" />
     <ClInclude Include="637.h" />
     <ClInclude Include="70.h" />
@@ -81,6 +83,7 @@
     <ClInclude Include="94.h" />
     <ClInclude Include="257.h" />
     <ClInclude Include="98.h" />
+    <ClInclude Include="fullBag.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

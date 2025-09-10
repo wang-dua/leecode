@@ -56,5 +56,41 @@ public:
 
 
 		return dp[m - 1][n];
+	} 
+
+	int bag_01_oneD()
+	{
+		int m, n;
+		while (cin >> m >> n)
+		{
+			if (m > 0 && n > 0) break;
+		}
+
+		vector<int> weight(m);
+		vector<int> value(m);
+		for (int i = 0; i < m && cin >> weight[i]; i++){}
+		for (int i = 0; i < m && cin >> value[i]; i++){}
+
+		/*
+		 * dp[j]是容量为j时, 选择物品0-i能装的最大价值
+		 * dp[j] = max{dp[j], dp[j-weight[i]]}
+		 * 0初始化
+		 * 外层正序, 内层倒序遍历
+		 */
+		vector<int> dp(n+1, 0); //0初始化, 后续覆盖
+
+		for (int i = 0; i < m; i++)
+		{
+			for (int j = n; j >= 0; j--)
+			{
+				//j < weight[i] 保留旧值
+				if (j >= weight[i])
+				{
+					dp[j] = max(dp[j], dp[j-weight[i]] + value[i]);
+				}
+			}
+		}
+		return dp[n];
+
 	}
 };

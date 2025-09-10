@@ -9,6 +9,7 @@
     <ClCompile Include="242.cpp" />
     <ClCompile Include="349.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="416.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
@@ -63,5 +64,7 @@
     <ClInclude Include="62.h" />
     <ClInclude Include="416.h" />
     <ClInclude Include="01Bag.h" />
+    <ClInclude Include="fullBag.h" />
+    <ClInclude Include="518.h" />
   </ItemGroup>
 </Project>
