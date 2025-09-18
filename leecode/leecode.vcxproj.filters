@@ -66,5 +66,40 @@
     <ClInclude Include="01Bag.h" />
     <ClInclude Include="fullBag.h" />
     <ClInclude Include="518.h" />
+    <ClInclude Include="121.h" />
+    <ClInclude Include="122.h" />
+    <ClInclude Include="123.h" />
+    <ClInclude Include="300.h" />
+    <ClInclude Include="674.h" />
+    <ClInclude Include="718.h" />
+    <ClInclude Include="1143.h" />
+    <ClInclude Include="1035.h" />
+    <ClInclude Include="647.h" />
+    <ClInclude Include="42.h" />
+    <ClInclude Include="704.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="59.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="203.h">
+      <Filter>LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="707.h">
+      <Filter>LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="206.h">
+      <Filter>LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="LRU.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Array">
+      <UniqueIdentifier>{a91287b0-18ea-4e9e-8414-285859c79ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinkList">
+      <UniqueIdentifier>{cee48c67-c019-4855-8e2a-c0bc5861d210}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

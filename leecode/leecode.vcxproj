@@ -37,12 +37,17 @@
     <ClInclude Include="1.h" />
     <ClInclude Include="101.h" />
     <ClInclude Include="102.h" />
+    <ClInclude Include="1035.h" />
     <ClInclude Include="104.h" />
     <ClInclude Include="107.h" />
     <ClInclude Include="110.h" />
     <ClInclude Include="111.h" />
+    <ClInclude Include="1143.h" />
     <ClInclude Include="116.h" />
     <ClInclude Include="117.h" />
+    <ClInclude Include="121.h" />
+    <ClInclude Include="122.h" />
+    <ClInclude Include="123.h" />
     <ClInclude Include="135.h" />
     <ClInclude Include="144.h" />
     <ClInclude Include="145.h" />
@@ -51,16 +56,20 @@
     <ClInclude Include="151.h" />
     <ClInclude Include="199.h" />
     <ClInclude Include="20.h" />
+    <ClInclude Include="203.h" />
+    <ClInclude Include="206.h" />
     <ClInclude Include="216.h" />
     <ClInclude Include="226.h" />
     <ClInclude Include="239.h" />
     <ClInclude Include="27.h" />
+    <ClInclude Include="300.h" />
     <ClInclude Include="344.h" />
     <ClInclude Include="347.h" />
     <ClInclude Include="376.h" />
     <ClInclude Include="39.h" />
     <ClInclude Include="40.h" />
     <ClInclude Include="416.h" />
+    <ClInclude Include="42.h" />
     <ClInclude Include="429.h" />
     <ClInclude Include="450.h" />
     <ClInclude Include="455.h" />
@@ -70,11 +79,17 @@
     <ClInclude Include="509.h" />
     <ClInclude Include="515.h" />
     <ClInclude Include="518.h" />
+    <ClInclude Include="59.h" />
     <ClInclude Include="62.h" />
     <ClInclude Include="637.h" />
+    <ClInclude Include="647.h" />
+    <ClInclude Include="674.h" />
     <ClInclude Include="70.h" />
     <ClInclude Include="700.h" />
     <ClInclude Include="701.h" />
+    <ClInclude Include="704.h" />
+    <ClInclude Include="707.h" />
+    <ClInclude Include="718.h" />
     <ClInclude Include="746.h" />
     <ClInclude Include="77.h" />
     <ClInclude Include="78.h" />
@@ -84,6 +99,8 @@
     <ClInclude Include="257.h" />
     <ClInclude Include="98.h" />
     <ClInclude Include="fullBag.h" />
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="LRU.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
