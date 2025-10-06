@@ -1,16 +1,32 @@
-#include "718.h"
+#include "Sort.h"
 #include <iostream>
 #include <vector>
+#include <random>
 using namespace std;
 
 
 
 int main()
 {
-	Solution s;
-	vector<int> A = {70, 39, 25, 40, 52};
-	vector<int> B = {52, 20, 67, 5, 31};
+	Sort s;
+	srand(time(0));
+	vector<int> vec;
+	for (int i = 0; i < 10; i++)
+	{
+		vec.emplace_back(rand() % 100);
+	}
 
-	int n = s.findLength(A, B);
-	cout << n << endl;
+	cout << "origin: \n";
+	for (int i : vec) cout << i << " ";
+
+	cout << "\n";
+
+	s.arr = vec;
+	//s.BubbleSort();
+	//s.SelectSort();
+	//s.InsertSort();
+	s.QuickSort(0, s.arr.size()-1);
+	cout << "Sorted:\n";
+	for (int i : s.arr) cout << i << " ";
+	cout << "\n";
 }

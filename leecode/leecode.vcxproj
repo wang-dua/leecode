@@ -98,6 +98,7 @@
     <ClInclude Include="94.h" />
     <ClInclude Include="257.h" />
     <ClInclude Include="98.h" />
+    <ClInclude Include="Sort.h" />
     <ClInclude Include="fullBag.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="LRU.h" />

@@ -93,6 +93,9 @@
       <Filter>LinkList</Filter>
     </ClInclude>
     <ClInclude Include="LRU.h" />
+    <ClInclude Include="Sort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Array">
@@ -100,6 +103,9 @@
     </Filter>
     <Filter Include="LinkList">
       <UniqueIdentifier>{cee48c67-c019-4855-8e2a-c0bc5861d210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{4b321a5a-4611-4174-a051-335a37dcf37f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
